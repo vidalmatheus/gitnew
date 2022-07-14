@@ -35,7 +35,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/inst
 ```
 
 # GitLab
-If you are on GitLab 11.10+ your merge request will be open automatically.
+If you are on GitLab 11.10+, your merge request will be open automatically.
 
 
 # Under the hood
