@@ -39,12 +39,7 @@ gitnew() {
     git stash pop;
     git add .;
     git commit -m "'"$2"'";
-
-    if ! [ -z "'${3+x}'" ] && [ "'$3'" = '-mr' ]; then
-        git push --set-upstream origin "'"$1"'" -o merge_request.create;
-    else
-        git push --set-upstream origin "'"$1"'";
-    fi
+    git push --set-upstream origin "'"$1"'" -o merge_request.create;
   fi
 }
 "
