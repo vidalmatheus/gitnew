@@ -1,4 +1,4 @@
-# gitnew
+# gitnew ![image](https://img.shields.io/badge/bash-yes-green) ![image](https://img.shields.io/badge/zsh-yes-green) 
 Command to push on a new branch your first changes
 
 ```
