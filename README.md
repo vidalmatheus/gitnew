@@ -1,6 +1,15 @@
 # gitnew
 Command to push on a new branch your first changes
 
+```
+           _ _
+      __ _(_) |_ _ __   _____      __
+     / _\` | | __| '_ \ / _ \ \ /\ / /
+    | (_| | | |_| | | |  __/\ V  V /
+     \__, |_|\__|_| |_|\___| \_/\_/
+     |___/
+
+```
 Have you ever started to code some new feature before creating a new branch for that? Or you have indeed pushed something new in your new branch, but got some conflicts, because you didn't realize that your main branch wasn't updated? Or even lastly you hate the fact that you have to run plenty of lines of code just to open a merge/pull request to push your new feature for your team to do a review?
 
 Yeah...That's boring.
