@@ -28,6 +28,8 @@ Just run:
 curl -o- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh | bash
 ```
 
+or
+
 ```
 wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh | bash
 ```
