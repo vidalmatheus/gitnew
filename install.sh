@@ -5,6 +5,7 @@ GREEN='\033[00;32m'
 YELLOW='\e[0;33m'
 BLUE='\033[0;34m'
 LBLU='\033[1;34m'
+BRANCH_NAME='main'
 
 echo -e "${LBLU}
        _ _
@@ -17,7 +18,6 @@ ${RESTORE}"
 echo -e "${LBLU}                Configure your installation\n${RESTORE}"
 
 
-BRANCH_NAME='main'
 read -p "$(echo -e ${BLUE}"? "${RESTORE}${LBLU}"Main branch name (main): "${RESTORE})" asked_branch_name
 
 
