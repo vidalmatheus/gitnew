@@ -25,13 +25,13 @@ gitnew <new_branch_name> <commit_message>
 Just run:
 
 ```
-curl -o- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh | bash
+bash <(curl -o- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh)
 ```
 
 or
 
 ```
-wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh | bash
+bash <(wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh)
 ```
 
 Are you on GitLab 11.10+? You can open a merge request within `--mr` option:
