@@ -34,10 +34,10 @@ or
 bash <(wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh)
 ```
 
-Are you on GitLab 11.10+? You can open a merge request with `--mr` option:
+Are you on GitLab 11.10+? You can open a merge request with `-mr` option:
 
 ```
-gitnew <new_branch_name> <commit_message> --mr
+gitnew <new_branch_name> <commit_message> -mr
 ```
 
 Under the hood:
