@@ -34,11 +34,9 @@ or
 bash <(wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh)
 ```
 
-Are you on GitLab 11.10+? You can open a merge request with `-mr` option:
+# GitLab
+If you are on GitLab 11.10+ your merge request will be open automatically.
 
-```
-gitnew <new_branch_name> <commit_message> -mr
-```
 
-Under the hood:
+# Under the hood
 ![image](https://user-images.githubusercontent.com/47875248/178903080-bb17c468-6322-44d3-b489-6f98666a8ad6.png)
