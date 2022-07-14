@@ -8,7 +8,7 @@ Yeah...That's boring.
 With `gitnew`, you can do all of that by running a single line of code:
 
 ```
-gitnew <branch_name> <commit_message>
+gitnew <new_branch_name> <commit_message>
 ```
 
 # Installation
@@ -26,5 +26,5 @@ wget -qO- https://raw.githubusercontent.com/vidalmatheus/gitnew/main/install.sh 
 Are you on GitLab 11.10+? You can open a merge request within `--mr` option:
 
 ```
-gitnew <branch_name> <commit_message> --mr
+gitnew <new_branch_name> <commit_message> --mr
 ```

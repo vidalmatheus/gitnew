@@ -51,7 +51,7 @@ gitnew() {
 echo "${GITNEW}" | tee -a ~/.bashrc >> /dev/null
 echo "${GITNEW}" | tee -a ~/.zshrc >> /dev/null
 
-echo -e "${GREEN}\nYou are good to go! \o/ \n\ngitnew <branch_name> <commit_msg>\n${RESTORE}"
+echo -e "${GREEN}\nYou are good to go! \o/ \n\ngitnew <new_branch_name> <commit_msg>\n${RESTORE}"
 
 if [[ $SHELL =~ "zsh" ]]; then
     zsh
